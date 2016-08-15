@@ -1,7 +1,7 @@
 dimreduction <- function() {
     source("plotpoints.R")
 
-    colors <- read.csv("misc/colors.csv", stringsAsFactors = F, header=F)
+    colors <- read.csv("data/colors.csv", stringsAsFactors = F, header=F)
     lbls <- read.table("data/labels.txt", stringsAsFactors = F, sep='\n')
     
     x11()
